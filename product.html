@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge alura/One e-commerce</title>
+    <link rel="icon" href="ahorcado.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/hero.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/prod-page.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/product-list.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+
+</head>
+
+<body>  
+    <header class="header">
+            <nav class="navbar">
+                <div class="navbar-logo">
+                    <a href=""><img src="assets/img/logo.png" alt="logo" class="logo"></a>
+                    <form class="navbar">
+                        <input type="search" placeholder="Buscar...." id="search">
+                    </form>
+                </div>
+                <button type="submit" id="login" class="btn-login" onclick="login()">Login</button>
+            </nav>
+    </header>
+    
+    <div class="gap"></div>
+
+    <div class="product-active">
+        <img  id="prod-img" src="assets/img/funda.jfif" alt="placeholder" class="featured-active">
+        <div class="prod-data">
+            <h1 id="prod-title" class="product-title">Funda Antigolpe iPhone Xs Max 11</h1>
+            <p id="prod-price" class="product-price">$1.500</p>
+            <p>Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+        </div>
+    </div>
+
+    <div class="product-category">
+
+        <div class="product-header">
+            <h1>
+                Productos Similares
+            </h1>
+        </div>
+
+        <div class="product-list">
+            <div class="product">
+                <img src="assets/img/motog60.jpg" alt="placeholder" class="featured">
+                <div>
+                    <p class="product-title">Moto G60s 128 GB GB RAM</p>
+                    <p class="product-price">$59.499</p>
+                    <form class="product-form" action="product.html" method="GET">
+                        <input type="hidden" name="id-prod" value="1">
+                        <input type="hidden" name="id-title" value="Moto G60s 128 GB GB RAM">
+                        <input type="hidden" name="id-price" value="$59.499">
+                        <input type="hidden" name="id-img" value="assets/img/motog60.jpg">
+                        <button class="form-submit">Ver Producto</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product">
+                <img src="assets/img/motog71.webp" alt="placeholder" class="featured">
+                <div>
+                    <p class="product-title">Moto G71 128 GB 6 GB RAM</p>
+                    <p class="product-price">$63.999</p>
+                    <form class="product-form" action="product.html" method="get">
+                        <input type="hidden" name="id-prod" value="2">
+                        <input type="hidden" name="id-title" value="Moto G71 128 GB 6 GB RAM">
+                        <input type="hidden" name="id-price" value="$63.999">
+                        <input type="hidden" name="id-img" value="assets/img/motog71.webp">
+                        <button class="form-submit">Ver Producto</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product">
+                <img src="assets/img/g200.png" alt="placeholder" class="featured">
+                <div>
+                    <p class="product-title">Moto G200 5G 128 GB 8 GB RAM</p>
+                    <p class="product-price">$94.999</p>
+                    <form class="product-form" action="product.html" method="get">
+                        <input type="hidden" name="id-prod" value="3">
+                        <input type="hidden" name="id-title" value="Moto G200 5G 128 GB 8 GB RAM">
+                        <input type="hidden" name="id-price" value="$94.999">
+                        <input type="hidden" name="id-img" value="assets/img/g200.png">
+                        <button class="form-submit">Ver Producto</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product">
+                <img src="assets/img/s20.webp" alt="placeholder" class="featured">
+                <div>
+                    <p class="product-title">Samsung Galaxy S20 FE 128 GB 6 GB RAM</p>
+                    <p class="product-price">$109.990</p>
+                    <form class="product-form" action="product.html" method="get">
+                        <input type="hidden" name="id-prod" value="4">
+                        <input type="hidden" name="id-title" value="Samsung Galaxy S20 FE 128 GB 6 GB RAM">
+                        <input type="hidden" name="id-price" value="$109.990">
+                        <input type="hidden" name="id-img" value="assets/img/s20.webp">
+                        <button class="form-submit">Ver Producto</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product">
+                <img src="assets/img/a33.webp" alt="placeholder" class="featured">
+                <div>
+                    <p class="product-title">Samsung Galaxy A33 5g 128 GB 6 Gb Ram</p>
+                    <p class="product-price">$66.999</p>
+                    <form class="product-form" action="product.html" method="get">
+                        <input type="hidden" name="id-prod" value="5">
+                        <input type="hidden" name="id-title" value="Samsung Galaxy A33 5g 128 GB 6 Gb Ram">
+                        <input type="hidden" name="id-price" value="$66.999">
+                        <input type="hidden" name="id-img" value="assets/img/a33.webp">
+                        <button class="form-submit">Ver Producto</button>
+                    </form>
+                </div>
+            </div>
+            <div class="product">
+                <img 
+                src="assets/img/note11.jfif" alt="placeholder" class="featured">
+                <div>
+                    <p class="product-title">Xiaomi Redmi Note 11 128 GB 4 GB RAM</p>
+                    <p class="product-price">$99.990</p>
+                    <form class="product-form" action="product.html" method="get">
+                        <input type="hidden" name="id-prod" value="6">
+                        <input type="hidden" name="id-title" value="Xiaomi Redmi Note 11 128 GB 4 GB RAM">
+                        <input type="hidden" name="id-price" value="$99.990">
+                        <input type="hidden" name="id-img" value="assets/img/note11.jfif">
+                        <button class="form-submit">Ver Producto</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="contact-footer">
+        <div class="container"> 
+            <div class="logo-footer">
+                <a href=""><img src="assets/img/logo.png" alt="logo"></a>
+            </div>
+            <div class="contact-list">
+                <ul>
+                    <li><a class="contact-link" href="">Quienes somos</a></li>
+                    <li><a class="contact-link" href="">Política de privacidad</a></li>
+                    <li><a class="contact-link" href="">Nuestras Tiendas</a></li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <form action="https://formsubmit.co/12e97499099a1394a1c2fab86aba2eac " method="POST" class="form" id="form" name="form">
+                    <input class="item-6-input" type="text" name="nombre" id="nombre" placeholder="Nombre" required="">
+                    <input class="item-6-input" type="email" id="email" name="email" placeholder="E-mail" required="">
+                    <button type="submit" id="enviar" class="submit">Suscribirme</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" role="contentinfo">
+        <p class="footer-block">
+        <p class="footer-block">Desarrollado por Tomás D´amario 2022</p>
+    </footer>
+
+<script src="assets/js/product-redirect.js" type="text/javascript"></script>
+<script>
+    function login(){
+        var user = prompt('Ingrese nombre de Usuario');
+        var pass = prompt('Ingrese Contraseña');
+        alert('Bienvenido '+ user) 
+        document.getElementById("login").innerHTML = "Cerrar sesion";
+    }
+</script>
+
+</body>
